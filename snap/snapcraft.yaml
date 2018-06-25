@@ -1,4 +1,4 @@
-name: transmission-daemon
+name: transmission-daemon-simosx
 version: '2.94'
 summary: Transmission is a fast, easy, and free BitTorrent client.
 description: |
