@@ -1,5 +1,5 @@
 name: transmission-daemon-simosx
-version: '2.94'
+version: '3.00'
 summary: Transmission is a fast, easy, and free BitTorrent client.
 description: |
   Transmission is a BitTorrent client which features a variety 
@@ -40,7 +40,7 @@ apps:
 parts:
   transmission-daemon:
     source: https://github.com/transmission/transmission.git
-    source-tag: '2.94'
+    source-tag: '3.00'
     plugin: autotools
     configflags:
       - "--disable-gtk"
